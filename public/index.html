@@ -5,12 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./custom.css" />
   </head>
   <body>
-    <div class="container mx-auto">
-      <h1 class="text-4xl bg-purple-300 p-4 text-stone-400">Penguin fashion</h1>
-      <h1 class="text-4xl bg-purple-300 p-">Penguin fashion</h1>
+    <!-- Header section start -->
+    <header class="bg-[#FFFBF0] pt-4">
+      <div class="container">
+      
+        <div class="navbar">
+          <figure class="w-40 lg:w-1/4">
+            <a href="#" ><img src="./images/logo.png" alt="" /></a>
+          </figure>
+          <nav>
+          <ul class="hidden sm:flex sm: gap-4">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#"></a>Contact Us</li>
+          </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list sm:hidden" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+
+          
+        </nav>
+        </div>
+     
+   
+      <!-- banner section start -->
+      <section class="grid grid-cols-1 sm:grid-cols-2 my-16 gap-20 justify-center items-center pb-8 ">
+        <div class="space-y-5">
+          <h1 class="text-6xl tracking-tighter uppercase">
+            <p class="text-yellow-400">Be the Penguin</p>
+            <p>of winter</p>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            vel, natus expedita veritatis repellat, a
+          </p>
+          <a class="btn" href="#">Buy now</a>
+        </div>
+        <div>
+          <img class="max-w-full" src="./images/model.png" alt="">
+        </div>
+      </section>
+      <!-- banner section end -->
     </div>
+    </header>
+    <!-- Header section end -->
   </body>
 </html>
