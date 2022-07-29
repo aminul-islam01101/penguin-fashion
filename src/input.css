@@ -4,10 +4,16 @@
 
 @layer components {
   .container {
-    @apply w-11/12 sm:w-10/12 md:w-9/12 lg:w-4/6 max-w-6xl;
+    @apply m-[0_auto] w-95 max-w-7xl px-0 sm:w-90 md:w-80 lg:w-70;
   }
-
+  .container-fluid {
+    @apply w-full px-0;
+  }
   .btn {
-    @apply uppercase font-semibold text-white bg-lime-600 border-0 outline-none rounded-md inline-block whitespace-nowrap px-4 py-2;
+    @apply inline-block whitespace-nowrap rounded-md border-0 bg-lime-600 px-4 py-2 font-semibold uppercase text-white outline-none;
+    font-size: .8rem;
   }
+}
+.fixed-top {
+  @apply fixed top-0 right-0 left-0 z-[1030];
 }
