@@ -3,16 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .navbar {
-      @apply h-16 flex  items-center justify-between  text-center;
-    }
-  
-    .container {
-      @apply w-11/12 sm:w-10/12 md:w-9/12 lg:w-4/6 max-w-6xl;
-    }
-  
-    .btn {
-      @apply uppercase font-semibold text-white bg-lime-600 border-0 outline-none rounded-md inline-block whitespace-nowrap px-4 py-2;
-    }
+  .container {
+    @apply w-11/12 sm:w-10/12 md:w-9/12 lg:w-4/6 max-w-6xl;
   }
-  
+
+  .btn {
+    @apply uppercase font-semibold text-white bg-lime-600 border-0 outline-none rounded-md inline-block whitespace-nowrap px-4 py-2;
+  }
+}
