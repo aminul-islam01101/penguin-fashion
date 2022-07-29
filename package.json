@@ -1,11 +1,12 @@
 {
-  "name": "penguin-fashion",
+  "name": "tail",
   "version": "1.0.0",
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "postcss ./src/input.css -o ./public/styles.css --watch"
+    "a": "postcss ./src/input.css -o ./public/styles.css --watch"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
